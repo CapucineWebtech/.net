@@ -1,0 +1,15 @@
+C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\bin\Debug\net9.0\RomainNumber.exe
+C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\bin\Debug\net9.0\RomainNumber.deps.json
+C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\bin\Debug\net9.0\RomainNumber.runtimeconfig.json
+C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\bin\Debug\net9.0\RomainNumber.dll
+C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\bin\Debug\net9.0\RomainNumber.pdb
+C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\obj\Debug\net9.0\RomainNumber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\obj\Debug\net9.0\RomainNumber.AssemblyInfoInputs.cache
+C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\obj\Debug\net9.0\RomainNumber.AssemblyInfo.cs
+C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\obj\Debug\net9.0\RomainNumber.csproj.CoreCompileInputs.cache
+C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\obj\Debug\net9.0\RomainNumber.dll
+C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\obj\Debug\net9.0\refint\RomainNumber.dll
+C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\obj\Debug\net9.0\RomainNumber.pdb
+C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\obj\Debug\net9.0\RomainNumber.genruntimeconfig.cache
+C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\obj\Debug\net9.0\ref\RomainNumber.dll
+C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\obj\Debug\net9.0\RomainNumber.csproj.AssemblyReference.cache

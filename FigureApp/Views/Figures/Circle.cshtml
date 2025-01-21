@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Circle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            margin-top: 20px;
+        }
+        label {
+            margin: 10px;
+        }
+        select, input[type="color"] {
+            margin: 10px;
+            padding: 5px;
+        }
+        .figure {
+            margin: 20px;
+            border-radius: 50%;
+            width: calc(50px * @(ViewData["Size"] ?? 1));
+            height: calc(50px * @(ViewData["Size"] ?? 1));
+            background-color: #@(ViewData["Color"] ?? "000000");
+        }
+        .btn-container {
+            margin-top: 20px;
+        }
+        button, .nav-link, .button {
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+            background-color: #008CBA;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        button:hover, .nav-link:hover, .button {
+            background-color: #005f7a;
+        }
+    </style>
+</head>
+<body>
+    <h1>Circle</h1>
+    <label for="size">Size:</label>
+    <select id="size" name="size" onchange="updateFigure()">
+        <option value="1" selected="@((ViewData["Size"]?.ToString() ?? "1") == "1")">1</option>
+        <option value="2" selected="@((ViewData["Size"]?.ToString() ?? "2") == "2")">2</option>
+        <option value="3" selected="@((ViewData["Size"]?.ToString() ?? "3") == "3")">3</option>
+    </select>
+
+    <label for="color">Color:</label>
+    <input type="color" id="color" name="color" value="#@(ViewData["Color"] ?? "000000")" onchange="updateFigure()">
+    <br /><br /><br />
+
+    <div class="figure"></div>
+
+    <form asp-action="Save" method="post" class="btn-container">
+        <input type="hidden" name="type" value="Circle">
+        <input type="hidden" name="size" value="@(ViewData["Size"] ?? 1)">
+        <input type="hidden" name="color" value="@(ViewData["Color"] ?? "000000")">
+        <button type="submit">Save</button>
+    </form>
+
+    <a class="button" href="@Url.Action("Index", "Figures")">Back to Index</a>
+
+    <script>
+        function updateFigure() {
+            var size = document.getElementById("size").value;
+            var color = document.getElementById("color").value.slice(1);
+            window.location.href = `/figures/circle?size=${size}&color=${color}`;
+        }
+    </script>
+</body>
+</html>

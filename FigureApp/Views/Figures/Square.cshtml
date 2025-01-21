@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Square</title>
+    <style>
+        .figure {
+            width: calc(50px * @ViewData["Size"]);
+            height: calc(50px * @ViewData["Size"]);
+            background-color: #@ViewData["Color"];
+        }
+    </style>
+</head>
+<body>
+    <h1>Square</h1>
+    <label for="size">Size:</label>
+    <select id="size" name="size" onchange="updateFigure()">
+        <option value="1" selected="@(@ViewData["Size"].ToString() == "1")">1</option>
+        <option value="2" selected="@(@ViewData["Size"].ToString() == "2")">2</option>
+        <option value="3" selected="@(@ViewData["Size"].ToString() == "3")">3</option>
+    </select>
+
+    <label for="color">Color:</label>
+    <input type="color" id="color" name="color" value="#@(ViewData["Color"])" onchange="updateFigure()">
+    <br /><br /><br />
+
+    <div class="figure"></div>
+
+    <form asp-action="Save" method="post">
+        <input type="hidden" name="type" value="Square">
+        <input type="hidden" name="size" value="@ViewData["Size"]">
+        <input type="hidden" name="color" value="@ViewData["Color"]">
+        <button type="submit">Save</button>
+    </form>
+
+    <a href="@Url.Action("Index", "Figures")">Back to Index</a>
+
+    <script>
+        function updateFigure() {
+            var size = document.getElementById("size").value;
+            var color = document.getElementById("color").value.slice(1);
+            window.location.href = `/figures/square?size=${size}&color=${color}`;
+        }
+    </script>
+</body>
+</html>
