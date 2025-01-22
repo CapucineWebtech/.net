@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RomainNumber")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd438591d2fe9983757584671cca07750c2f215e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbc8f653bbe7395a9f418f5e9403db81f87970ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("RomainNumber")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RomainNumber")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,4 +13,3 @@ C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\obj\Debug\net9.0\refint\Ro
 C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\obj\Debug\net9.0\RomainNumber.pdb
 C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\obj\Debug\net9.0\RomainNumber.genruntimeconfig.cache
 C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\obj\Debug\net9.0\ref\RomainNumber.dll
-C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\obj\Debug\net9.0\RomainNumber.csproj.AssemblyReference.cache
