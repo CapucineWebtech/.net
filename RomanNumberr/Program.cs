@@ -41,6 +41,16 @@ public class Program
         }
     }
 
+    public static int RomanToInt(string s)
+    {
+        if (!IsValidRomanNumeral(s))
+        {
+            throw new ArgumentException("Invalid Roman numeral");
+        }
+
+        return ConvertRomanToInteger(s);
+    }
+
     private static bool IsValidRomanNumeral(string s)
     {
         // Supprimer les espaces
@@ -118,23 +128,5 @@ public class Program
         }
 
         return result;
-    }
-
-    public static int RomanToInt(string s)
-    {
-        if (!IsValidRomanNumeral(s))
-        {
-            throw new ArgumentException("Invalid Roman numeral");
-        }
-
-        return ConvertRomanToInteger(s);
-    }
-
-    public static void RomanValueIsWrong(string s)
-    {
-        if (IsValidRomanNumeral(s))
-        {
-            throw new ArgumentException("Invalid repetition or subtraction");
-        }
     }
 }

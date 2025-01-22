@@ -7,6 +7,7 @@ C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\obj\Debug\net9.0\RomainNum
 C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\obj\Debug\net9.0\RomainNumber.AssemblyInfoInputs.cache
 C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\obj\Debug\net9.0\RomainNumber.AssemblyInfo.cs
 C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\obj\Debug\net9.0\RomainNumber.csproj.CoreCompileInputs.cache
+C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\obj\Debug\net9.0\RomainNumber.sourcelink.json
 C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\obj\Debug\net9.0\RomainNumber.dll
 C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\obj\Debug\net9.0\refint\RomainNumber.dll
 C:\Users\capuc\Documents\Webtech\N5\.net\RomainNumber\obj\Debug\net9.0\RomainNumber.pdb

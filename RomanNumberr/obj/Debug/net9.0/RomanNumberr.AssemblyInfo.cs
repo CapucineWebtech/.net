@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("RomainNumber")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("RomanNumberr")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd438591d2fe9983757584671cca07750c2f215e")]
-[assembly: System.Reflection.AssemblyProductAttribute("RomainNumber")]
-[assembly: System.Reflection.AssemblyTitleAttribute("RomainNumber")]
+[assembly: System.Reflection.AssemblyProductAttribute("RomanNumberr")]
+[assembly: System.Reflection.AssemblyTitleAttribute("RomanNumberr")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Généré par la classe MSBuild WriteCodeFragment.
